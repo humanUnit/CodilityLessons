@@ -1,6 +1,7 @@
 # CodilityLessons
 
-Programming language used: JavaScript.
+Programming language used: JavaScript.  
+Mocha and Chai are used for tests.
 
 ## Lessons
 
@@ -14,5 +15,5 @@ Programming language used: JavaScript.
    [100%] OddOccurrencesInArray
    Find value that occurs in odd number of elements.
    
-   CyclicRotation
+   [100%] CyclicRotation
    Rotate an array to the right by a given number of steps.
