@@ -28,8 +28,9 @@ Pay attention to the links, because solutions adapted to tests.
    Count minimal number of jumps from position X to Y.
    https://app.codility.com/demo/results/trainingSAFFWX-S4T/
    
-   [0%] PermMissingElem
+   [100%] PermMissingElem
    Find the missing element in a given permutation.
+   https://app.codility.com/demo/results/trainingBEM3PM-CPG/
    
    [0%] TapeEquilibrium
    Minimize the value |(A[0] + ... + A[P-1]) - (A[P] + ... + A[N-1])|.
