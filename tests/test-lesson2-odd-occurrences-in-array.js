@@ -9,7 +9,6 @@ describe('OddOccurrencesInArray - lesson2', () => {
         expect(solution([1, 2, 2, 3, 3])).to.equal(1);
     });
 
-
     it('Value of the unpaired element equals 9', ()=> {
         expect(solution([9, 9, 9, 9, 9])).to.equal(9);
     });
