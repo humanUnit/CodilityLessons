@@ -1,21 +1,15 @@
-function solution(A){
-    let sum = 0;
-    let secondSum = 0;
-    A.forEach((n) => {
-        sum += n;
-        let secondPart = A.slice(n);
-        console.log(secondPart);
-        // let difference = sumOverall - sum;
-        // console.log(difference);
-        // let result = sum - difference;
-        // console.log(result);
-        // let min = Math.min(result);
-        // return console.log(min);
-    });
+ export function solution(A){
+    let sum = A.reduce((accumulator, currentValue) => accumulator + currentValue);
+    let left = 0;
+    let equilibrium = Number.MAX_VALUE;
 
-    console.log(sum);
-    console.log(secondSum);
-
+    for (let i = 0; i < A.length-1; i++) {
+        left += A[i];
+        let right = sum - left;
+        equilibrium = Math.min(equilibrium, Math.abs(left - right));
+        if(equilibrium === 0) {
+            return 0;
+        }
+    }
+    return equilibrium;
 }
-
-solution([1, 2, 3]);

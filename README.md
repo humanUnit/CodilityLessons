@@ -32,5 +32,6 @@ Pay attention to the links, because solutions adapted to tests.
    Find the missing element in a given permutation.
    https://app.codility.com/demo/results/trainingBEM3PM-CPG/
    
-   [0%] TapeEquilibrium
+   [100%] TapeEquilibrium
    Minimize the value |(A[0] + ... + A[P-1]) - (A[P] + ... + A[N-1])|.
+   https://app.codility.com/demo/results/training3R233C-MKJ/
